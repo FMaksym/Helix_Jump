@@ -17,7 +17,6 @@ public class Platform : MonoBehaviour
             segment.Bounce(_bouceForce, transform.position, _bounceRadius);
         }
         WaitAndDestroy(3);
-        //Destroy(gameObject);
     }
 
     public void Destroyer()
