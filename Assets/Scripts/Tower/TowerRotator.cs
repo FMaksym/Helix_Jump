@@ -23,7 +23,6 @@ public class TowerRotator : MonoBehaviour
             {
                 float torque = touch.deltaPosition.x * Time.deltaTime * _rotateSpeed;
                 transform.Rotate(0, torque * _rotateSpeed * Time.deltaTime, 0, Space.Self);
-                //_rigidbody.AddTorque(Vector3.down * torque);
             }
         }
     }
